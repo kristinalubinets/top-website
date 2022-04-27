@@ -1,0 +1,143 @@
+body, html {
+    height: 100vh;
+    font-family: Georgia , sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.blue-div {
+    background-color: #1F2937;
+    color: #f9faf8;
+    /*padding: 0px 200px 30px 200px;*/
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: flex;  
+     
+    width: 1000px;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+
+.header-content .header-p .bold {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header-p p {
+    font-size: 18px;
+}
+
+.header-content img {
+    /*padding-left: 20px;*/
+    flex-shrink: 0;
+    width: 400px;
+    /*height: 200px;*/
+    border-radius: 15px;
+}
+
+.white-div {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 200px 30px 200px;
+    color: #1F2937;
+}
+.white-div .top {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    width: 210px;
+    /*height: 200px;*/
+    margin: 10px;
+    text-align: center;
+}
+.card img {
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+}
+.gray-div {
+    background-color: #e5e7eb;
+    padding: 50px 200px 30px 200px;
+}
+.gray-quote {
+    font-size: 34px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+.gray-name{
+    font-weight: bold;
+    text-align: end;
+}
+.last-div {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.inside-div {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    border-radius: 7px;
+    background-color: #3882f6;
+    color:#e5e7eb;
+    padding: 20px;
+}
+.inside-div p {
+    margin: 0;
+    padding: 0;
+}
+.inside-div .call {
+    font: 700 18px sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.footer {
+    position: sticky;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 12px 0 12px;
+}
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 5px;
+    padding: 3px 14px 3px 14px;
+    border-style: none;
+}
+button.inner {
+    border-style:solid;
+    border-color: #f9faf8;
+}
